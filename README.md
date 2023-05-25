@@ -1,11 +1,10 @@
 # Calculadora_Comissao_WebAPI
 
-##Objetivo
+## Objetivo
 Projeto desenvolvido como meio de avaliação para o teste da empresa TG4.
 
 ## Resumo
 O Projeto foi concebido em .NET 6 e permite a consulta de comissão de vendas por meio de uma lista qualquer de vendas.
-
 O Projeto foi construido com o FluentValidation para a validação dos modelos de entrada da aplicação, logo quando falta qualquer propriedade ou ela é nula a api devolve um erro 400 - BadRequest
 Os payloads de entrada e saída foram concebidos de forma a serem exatamente iguais os do exemplo disponibilizado, inclusive seus tipo, conversões e precisão.
 Não foi criado uma espécie de repositório em memória por não achar que faz sentido armazenar esses valores tanto de entrada(pedidos) quando de saida(comissões)
