@@ -45,7 +45,7 @@ foi alterado para:
 ```
 
 ### Inserção de validação no mês 7 das metas
-Ao criar o dicionário que gera as metas por mês, percebi que estava faltando o valor referente ao mes 7, então dentro do código gerei uma validação que caso ocorra de o mês 7 ser passado não seria retornado nenhum valor de desconto
+Ao criar o dicionário que gera as metas por mês percebi que estava faltando o valor referente ao mes 7, então dentro do código gerei uma validação que caso ocorra de o mês 7 ser processado pela API não seria retornado nenhum valor de desconto. https://github.com/guilhermemgoncalves/Calculadora_Comissao_WebAPI/blob/master/Calculadora_Comissao_WebAPI/Helpers/TaxasComissaoHelper.cs linha 26
 
 
 
