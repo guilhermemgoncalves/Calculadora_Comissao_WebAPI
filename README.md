@@ -3,7 +3,7 @@
 ##Objetivo
 Projeto desenvolvido como meio de avaliação para o teste da empresa TG4.
 
-##Resumo
+## Resumo
 O Projeto foi concebido em .NET 6 e permite a consulta de comissão de vendas por meio de uma lista qualquer de vendas.
 
 O Projeto foi construido com o FluentValidation para a validação dos modelos de entrada da aplicação, logo quando falta qualquer propriedade ou ela é nula a api devolve um erro 400 - BadRequest
@@ -13,8 +13,8 @@ A Api não foi construida com nenhuma arquitetura de projeto devido a seu nível
 A construção da Api conta com fatores interessantes como Inversão de controle através de inversão de dependência entre outros fatores.
 
 
-##Observações 
-###Alteração Payload Inicial
+## Observações 
+### Alteração Payload Inicial
 Payload Inicial foi alterado pois a forma com que as apis leem os dados não permite o recebimento de dados da coluna de valor 
 
 ```
@@ -45,7 +45,7 @@ foi alterado para:
 
 ```
 
-###Inserção de validação no mês 7 das metas
+### Inserção de validação no mês 7 das metas
 Ao criar o dicionário que gera as metas por mês, percebi que estava faltando o valor referente ao mes 7, então dentro do código gerei uma validação que caso ocorra de o mês 7 ser passado não seria retornado nenhum valor de desconto
 
 
